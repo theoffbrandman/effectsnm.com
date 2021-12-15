@@ -13,8 +13,8 @@ body, html {
     padding-top: 25px;
     display: flex;
     flex-direction: column;
-    background-color: #1e1e1e;
-    color: #0094ff;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .container {
@@ -134,8 +134,9 @@ input[type="submit"] {
 .fixed-header {
     top: 0;
     left: 0;
-    /*right: 0; /*Allows fixed header to strecth all the way to the right*/
-    outline: 2px solid #000000;
+    right: 0; /*Allows fixed header to strecth all the way to the right*/
+    box-shadow: 2px 4px 8px 2px rgba(248, 151, 6, 0.945);
+    /*outline: 2px solid #000000;*/
     width: contain;
     position: fixed;
     background: #1e1e1e;
@@ -181,20 +182,31 @@ navsub a {
 
 .wrapper p {
     width: 95%;
-    line-height: 35px; /* Create scrollbar to test positioning */
-    padding-left: 30px;
+    line-height: 25px;
+    padding-left: 10px;
     padding-bottom: 15px;
-    text-indent: 30px;
+    /*text-indent: 30px;*/
     flex: 1; /* same as flex-grow: 1; */
     font-family: 'Times New Roman', Times, serif;
-    color: #0094ff;
+    color: #333;
+}
+
+.wrapper h1 {
+    width: 95%;
+    line-height: 25px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    /*text-indent: 30px;*/
+    flex: 1; /* same as flex-grow: 1; */
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
 }
 
 .title p {
     width: 100%;
     font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
-    color: blueviolet;
+    color: rgb(0, 0, 0);
     line-height: 30px;
     padding: 10px 0px 10px 10px;
 }
@@ -203,7 +215,7 @@ navsub a {
     width: 100%;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
-    color: blueviolet;
+    color: rgb(0, 0, 0);
     line-height: 40px;
     padding-left: 30px;
     text-align: left;
@@ -214,7 +226,7 @@ navsub a {
     text-align: left;
     width: 100%;
     font-size: 18px;
-    color: blueviolet;
+    color: rgb(0, 0, 0);
     line-height: 20px;
     padding-bottom: 10px;
     font-family: 'Times New Roman', Times, serif;
@@ -257,9 +269,10 @@ navsub a {
 
 /* Style the counter cards */
 .card {
-    box-shadow: 2px 4px 8px 2px rgba(138, 43, 226, 0.8); /* this adds the "card" effect */
+    box-shadow: 2px 4px 8px 2px rgba(248, 151, 6, 0.945); /* this adds the "card" effect */
+    outline: 2px solid #000000;
     text-align: left;
-    background-color: #1e1e1e;
+    background-color: #ffffff;
     padding: 20px;
     margin-bottom: 40px;
 }
@@ -315,7 +328,7 @@ ul li ul {
 }
 
 ul li ul li {
-    background: #1e1e1e;
+    background: #ffffff;
     display: block;
     float: left;
     clear: left;
@@ -326,5 +339,6 @@ ul li ul li a {
 }
 
 ul li ul li:hover {
+    outline: 2px solid #000000;
     background: #666;
 }
