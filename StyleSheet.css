@@ -275,6 +275,10 @@ navsub a {
     background-color: #ffffff;
     padding: 20px;
     margin-bottom: 40px;
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
