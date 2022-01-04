@@ -29,13 +29,44 @@ body, html {
   
   .grid-item {
     padding: 20px;
-    width: 22%;
   }
 
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+ul li{
+    width:inherit;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+    width:inherit;/*trying to make dropdown same width as top part*/
+}
+
+ul li ul li {
+    background: #000000;
+    display: block;
+    float: left;
+    clear: left;
+    width:inherit;
+}
+
+ul li ul li a {
+    display: block !important;
+    width:inherit;
+}
+
+ul li ul li:hover {
+    background: #666;
 }
 
 footer {
@@ -146,7 +177,7 @@ input[type="submit"] {
     top: 0;
     left: 0;
     right: 0; /*Allows fixed header to strecth all the way to the right*/
-    box-shadow: 2px 4px 8px 2px rgba(248, 151, 6, 0.945);
+    box-shadow: 2px 4px 8px 2px rgba(6, 248, 228, 0.945);
     /*outline: 2px solid #000000;*/
     width: contain;
     position: fixed;
@@ -338,31 +369,3 @@ navsub a {
     width: 100%;
     padding: 20px;
   }
-
-ul li:hover ul {
-    display: block;
-}
-
-ul li ul {
-    position: absolute;
-    width: 200px;
-    display: none;
-    width:inherit;/*trying to make dropdown same width as top part*/
-}
-
-ul li ul li {
-    background: #000000;
-    display: block;
-    float: left;
-    clear: left;
-    width:inherit;
-}
-
-ul li ul li a {
-    display: block !important;
-    width:inherit;
-}
-
-ul li ul li:hover {
-    background: #666;
-}
