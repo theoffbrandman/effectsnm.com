@@ -24,12 +24,12 @@ body, html {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: #2196F3;
     padding: 10px;
   }
   
   .grid-item {
     padding: 20px;
+    width: 22%;
   }
 
 ul {
@@ -284,10 +284,6 @@ navsub a {
     outline: 2px solid #000000;
     text-align: left;
     background-color: #ffffff;
-    margin-bottom: 40px;
-    width: 25%;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .cardlarge {
@@ -345,14 +341,13 @@ navsub a {
 
 ul li:hover ul {
     display: block;
-    width:inherit/*trying to make dropdown same width as top part*/
 }
 
 ul li ul {
     position: absolute;
     width: 200px;
     display: none;
-    width:inherit
+    width:inherit;/*trying to make dropdown same width as top part*/
 }
 
 ul li ul li {
@@ -360,12 +355,12 @@ ul li ul li {
     display: block;
     float: left;
     clear: left;
-    width:inherit
+    width:inherit;
 }
 
 ul li ul li a {
     display: block !important;
-    width:inherit
+    width:inherit;
 }
 
 ul li ul li:hover {
