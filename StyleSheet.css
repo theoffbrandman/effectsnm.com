@@ -268,7 +268,19 @@ navsub a {
     }
 
 /* Style the counter cards */
-.card {
+.cardsmall {
+    box-shadow: 2px 4px 8px 2px rgba(248, 151, 6, 0.945); /* this adds the "card" effect */
+    outline: 2px solid #000000;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 40px;
+    width: 25%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cardlarge {
     box-shadow: 2px 4px 8px 2px rgba(248, 151, 6, 0.945); /* this adds the "card" effect */
     outline: 2px solid #000000;
     text-align: left;
@@ -276,7 +288,7 @@ navsub a {
     padding: 20px;
     margin-bottom: 40px;
     float: left;
-    width: 25%;
+    width: 90%;
     padding-left: 20px;
     padding-right: 20px;
 }
