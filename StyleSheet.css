@@ -21,6 +21,17 @@ body, html {
     flex: 1 0 auto;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    padding: 20px;
+  }
+
 ul {
     list-style: none;
     margin: 0;
@@ -269,11 +280,10 @@ navsub a {
 
 /* Style the counter cards */
 .cardsmall {
-    box-shadow: 2px 4px 8px 2px rgba(248, 151, 6, 0.945); /* this adds the "card" effect */
+    box-shadow: 2px 4px 8px 2px rgba(6, 248, 228, 0.945); /* this adds the "card" effect */
     outline: 2px solid #000000;
     text-align: left;
     background-color: #ffffff;
-    padding: 20px;
     margin-bottom: 40px;
     width: 25%;
     padding-left: 20px;
@@ -281,14 +291,14 @@ navsub a {
 }
 
 .cardlarge {
-    box-shadow: 2px 4px 8px 2px rgba(248, 151, 6, 0.945); /* this adds the "card" effect */
+    box-shadow: 2px 4px 8px 2px rgba(6, 248, 228, 0.945); /* this adds the "card" effect */
     outline: 2px solid #000000;
     text-align: left;
     background-color: #ffffff;
     padding: 20px;
     margin-bottom: 40px;
-    float: left;
-    width: 90%;
+    vertical-align: center;
+    width: 95%;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -335,26 +345,29 @@ navsub a {
 
 ul li:hover ul {
     display: block;
+    width:inherit/*trying to make dropdown same width as top part*/
 }
 
 ul li ul {
     position: absolute;
     width: 200px;
     display: none;
+    width:inherit
 }
 
 ul li ul li {
-    background: #ffffff;
+    background: #000000;
     display: block;
     float: left;
     clear: left;
+    width:inherit
 }
 
 ul li ul li a {
     display: block !important;
+    width:inherit
 }
 
 ul li ul li:hover {
-    outline: 2px solid #000000;
     background: #666;
 }
