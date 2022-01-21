@@ -13,7 +13,7 @@ body, html {
     padding-top: 25px;
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: #004e4f;
     color: #000000;
 }
 
@@ -30,10 +30,11 @@ body, html {
 }
 
 .wrapper p {
-    width: 95%;
+    width: 100%;
     line-height: 25px;
     padding-left: 10px;
     padding-bottom: 15px;
+    text-align: center;
     /*text-indent: 30px;*/
     flex: 1; /* same as flex-grow: 1; */
     font-family: 'Times New Roman', Times, serif;
@@ -41,14 +42,15 @@ body, html {
 }
 
 .wrapper h1 {
-    width: 95%;
+    width: 100%;
     line-height: 25px;
     padding-left: 10px;
     padding-bottom: 15px;
+    text-align: center;
     /*text-indent: 30px;*/
     flex: 1; /* same as flex-grow: 1; */
     font-family: 'Times New Roman', Times, serif;
-    color: #000000;
+    color: #333;
 }
 
 .fixed-header {
@@ -58,7 +60,7 @@ body, html {
     top: 0;
     left: 0;
     right: 0; /*Allows fixed header to strecth all the way to the right*/
-    box-shadow: 2px 4px 8px 2px rgba(6, 248, 228, 0.945);
+    /* box-shadow: 2px 4px 8px 2px rgba(6, 248, 228, 0.945); */
     /*outline: 2px solid #000000;*/
     width: contain;
     position: fixed;
@@ -143,18 +145,18 @@ ul li ul li:hover {
 
 /* Style the counter cards */
 .cardsmall {
-    box-shadow: 2px 4px 8px 2px rgba(6, 248, 228, 0.945); /* this adds the "card" effect */
+    /*box-shadow: 2px 4px 8px 2px rgba(6, 248, 228, 0.945); this adds the "card" effect */
     outline: 2px solid #000000;
-    text-align: left;
-    background-color: #ffffff;
-    width: 300px
+    text-align: center;
+    background-color: #c0ffff;
+    width: 350px
 }
 
 .cardlarge {
-    box-shadow: 2px 4px 8px 2px rgba(6, 248, 228, 0.945); /* this adds the "card" effect */
+    /*box-shadow: 2px 4px 8px 2px rgba(6, 248, 228, 0.945); this adds the "card" effect */
     outline: 2px solid #000000;
-    text-align: left;
-    background-color: #ffffff;
+    text-align: center;
+    background-color: #c0ffff;
     width: 450px;
 }
 
