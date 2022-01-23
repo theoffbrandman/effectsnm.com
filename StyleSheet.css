@@ -190,6 +190,18 @@ ul li ul li:hover {
     width: 450px;
 }
 
+.cardwide {
+    text-align: center;
+    background-color: #efffff;
+    width: 95%;
+}
+
+.cardtiny {
+    text-align: center;
+    background-color: #efffff;
+    width: 175px;
+}
+
 .cardlarge p {
     width: 100%;
     line-height: 25px;
@@ -220,6 +232,44 @@ ul li ul li:hover {
 }
 
 .cardsmall h1 {
+    width: 100%;
+    line-height: 25px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #001824;
+}
+
+.cardwide p {
+    width: 100%;
+    line-height: 25px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #001824;
+}
+
+.cardwide h1 {
+    width: 100%;
+    line-height: 25px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #001824;
+}
+
+.cardtiny p {
+    width: 100%;
+    line-height: 25px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #001824;
+}
+
+.cardtiny h1 {
     width: 100%;
     line-height: 25px;
     padding: 20px;
